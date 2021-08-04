@@ -10,7 +10,10 @@ console.log(currentTime);
 function App() {
   return (
     <div className="container">
-      {currentTime > 12 ? <h1>Why are you still working</h1> : null}
+      {/* ternary operator */}
+      {/* {currentTime > 12 ? <h1>Why are you still working</h1> : null} */}
+      {/* && instead of ternary operator, : null won't be evaluated if the first condition is false */}
+      {currentTime > 12 && <h1>Why are you still working</h1>}
     </div>
   );
 }
