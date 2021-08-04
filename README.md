@@ -1,5 +1,5 @@
 # react_conditional_rendering_login_form
-Created with CodeSandbox
+A basic Log In form Created with CodeSandbox
 
 ## Description
 
@@ -11,6 +11,9 @@ it will render a Log In Form (Username, Password & Submit Button) so the user ca
 * Use components and props.
 * Render componenets depeding of certain condition (if statement) .
 * Use TERNARY OPERATOR
-    * Two options depending if the condition true or false
+    * Two options depending if the condition is true or false
     * Render component if condition true. Nothing at all (null) if false 
-* && in JS () 
+* && in JS 
+    * Condition && Expression:
+    * true && Expression
+    * false && Expression-Not-Evaluated
