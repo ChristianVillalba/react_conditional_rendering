@@ -1,10 +1,12 @@
 import React from "react";
-// import Login from "./Login";
 
+// eg: Conditionlal Rendering - LogIn Form
+// import Login from "./Login";
 // var isLoggedIn = false;
 // function App() {
 //   return <div className="container">{isLoggedIn ? <h1>Hello</h1> : <h1>Hello</h1>}</div>;
 // }
+
 const currentTime = new Date().getHours();
 console.log(currentTime);
 function App() {
