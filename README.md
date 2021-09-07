@@ -52,7 +52,7 @@ function App() {
 
 To render something if we have certain conditions but nothing at all if the conditions do not meet:       
 ```
-condition ? renderComponent : null
+CONDITION ? renderComponent : null
 ```
 eg: in our App: The heading only will be rendered in certain conditions, else nothing will be rendered.      
 ```javascript
@@ -66,7 +66,7 @@ function App() {
   );
 }
 ```
-but there is a easier and shorter way ...
+but there is an easier and shorter way ...
 
 
 ### && in JavaScript 
@@ -89,9 +89,6 @@ We can delete the ternary operator ```?```, add ```&&``` and delete ```: null```
 ```
 javascript {currentTime > 12 && <h1>Why are you still working</h1>} 
 ```    
-
-
-
 
 ---
 ## What I have learned with this project
